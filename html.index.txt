@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+    <style>
+        /* Simple CSS to make it look clean immediately */
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        header { text-align: center; padding: 50px 0; }
+        h1 { margin-bottom: 10px; }
+        .project-card { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .btn { display: inline-block; background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        footer { text-align: center; margin-top: 50px; color: #666; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>[Your Name]</h1>
+        <p>Software Engineering Student & Developer</p>
+        <p>Building solutions with [Your Top Skill 1] and [Your Top Skill 2]</p>
+        <br>
+        <a href="#projects" class="btn">View My Work</a>
+    </header>
+
+    <hr>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am currently studying Software Engineering. I have a passion for building interactive web tools 
+            and working with hardware sensors like Arduino.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project-card">
+            <h3>Project Title 1</h3>
+            <p>A brief description of what this project does and the problem it solves.</p>
+            <p><strong>Tech Stack:</strong> HTML, JavaScript, CSS</p>
+            <a href="#">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Arduino Weather Station</h3>
+            <p>An IoT system monitoring temperature and humidity using DHT22 sensors.</p>
+            <p><strong>Tech Stack:</strong> C++, Arduino, LCD Display</p>
+            <a href="#">View Code</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact me at: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>
+            <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
